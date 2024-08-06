@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/acz7hxr.css">
+    <title>Picture Pathways</title>
+</head>
+<body>
+    <!--Skip Navigation-->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!--HEADER & NAVIGATION-->
+    <header>
+        <nav class="topnav" role="navigation">
+            <a href="#home" class="active logo" aria-label="Home" aria-current="page"><img id="logo" src="images/Logo.svg" alt="Picture Pathways Logo"><h1>Picture Pathways</h1></a>
+            <div id="links">
+              <a href="#signin" tabindex="0">Sign In</a>
+              <a href="#parents" tabindex="-1">Parents</a>
+              <a href="#about" tabindex="-1">About</a>
+              <a href="#contact" tabindex="-1">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" role="button" aria-label="Menu" onclick="menuFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </nav> 
+        <h2 id="phrase">Unlocking Voices: Simple Steps for Communication</h2>
+    </header>
+    <!--MAIN-->
+    <Main id="main-content">
+        <!--Main Photo-->
+        <img id="main" src="images/mainphoto.png" alt="Robot standing on a planet with a book.">
+        <!--Start Button-->
+        <div class="button-container">
+        <button class="start-button" aria-label="Start with Picture Quest">Start</button>
+        </div>
+        <!--Picture Quest Section-->
+        <div class="section">
+        <section id="section1" class="sec1">
+            <div class="play">
+            <img class="phase" src="images/Phase1.webp" alt="Picture Quest Game">
+        </div>
+            <div class="text">
+            <h3>Picture Quest</h3>
+            <audio id="pictureQuestAudioPlayer" src="audio/phase1.mp3" controls aria-label="Play Audio"></audio>
+            </div>
+        </section>
+        <!--Sentence Expedition Section-->
+        <section id="section2" class="sec2">
+            <div class="text">
+            <h3>Sentences Expedition</h3>
+            <audio id="SentencesExpeditionAudioPlayer" src="audio/phase2.mp3" controls aria-label="Play Audio"></audio>
+        </div>
+        <div class="play">
+            <img class="phase2" src="images/Phase2.webp" alt="Sentences Expedition Game">
+        </div>
+        </section>
+        <!--Dialogue Discovery Game-->
+        <section id="section3" class="sec1">
+            <div class="play">
+            <img class="phase" src="images/Phase3.webp" alt="Dialogue Discovery Game">
+        </div>
+            <div class="text">
+            <h3>Dialogue Discovery</h3>
+                    <audio id="DialogueDiscoveryAudioPlayer" src="audio/phase3.mp3" controls aria-label="Play Audio"></audio>
+        </div>
+        </section>
+    
+        <!--Conversation Odyssey Section-->
+        <section id="section4" class="sec2">
+            <div class="text">
+            <h3>Conversation Odyssey</h3>
+            <audio id="ConversationOdysseyAudioPlayer" src="audio/phase4.mp3" controls aria-label="Play Audio"></audio>
+        </div>
+        <div class="play">
+            <img class="phase" src="images/Phase4.webp" alt="Conversation Odyssey Game">
+        </div>
+        </section>
+    </div>
+    </Main>
+    <!--FOOTER-->
+    <footer>
+        <div id="footer">
+        <img id="footerLogo" src="images/Logo.svg" alt="Picture Pathways Logo">
+        <h3 class="footer">Picture Pathways</h3>
+    </div>
+        <div id="footerLinks">
+            <a href="#signin">Sign In</a>
+            <a href="#parents">Parents</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+    </footer>
+<script src="JS/script.js"></script>
+</body>
+</html>
